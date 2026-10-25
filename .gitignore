@@ -1,0 +1,38 @@
+# Local macOS files and launcher
+.DS_Store
+._*
+*.command
+
+# Codex and local agent settings
+.codex/
+.agents/
+AGENTS.md
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+.venv-build/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated builds
+/build/
+/dist/
+*.spec
+*.egg-info/
+
+# Local configuration and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+~$*
+/backups/
